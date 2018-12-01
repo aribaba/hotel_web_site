@@ -7,9 +7,9 @@
 
 	<ul id="Nav">
 		<a href="<?php echo home_url('/'); ?>"><li>トップページ</li></a>
-		<a href="<?php echo home_url('/'); ?>room" class="Pjax"><li>客室のご案内</li></a>
-		<a href="<?php echo home_url('/'); ?>access" class="Pjax"><li>アクセス</li></a>
-		<a href="<?php echo home_url('/'); ?>hotel_info" class="Pjax"><li>サービスのご案内</li></a>
+		<a href="<?php echo home_url('/'); ?>room" ><li>客室のご案内</li></a>
+		<a href="<?php echo home_url('/'); ?>access" ><li>アクセス</li></a>
+		<a href="<?php echo home_url('/'); ?>hotel_info" ><li>サービスのご案内</li></a>
 
 	</ul>
 	<div id="Tel">
