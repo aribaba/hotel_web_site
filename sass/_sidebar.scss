@@ -1,73 +1,71 @@
 @charset "UTF-8";
 
-
-#Sidebar {
-	display: inline-block;
-	position: fixed;
-	left: 0;
-	top: 0;
-	width: 20%;
-	height: 100%;
-	box-shadow: -10px 0px 15px 10px #ddd;
-
-}
-
-#SiteTitle {
-	width: 100%;
-	background: #2a4073;
-	height: 120px;
-	box-shadow: -10px 1px 10px 5px #aaa;
-}
-#SiteTitle h1 {
-	color: #fff;
-	font-size: 20px;
-	font-weight: bold;
-	line-height: 120px;
-	text-align: center;
-	margin: 0;
-
-}
-
-#Sidebar ul li {
-	list-style: none;
-	display: block;
-	padding: 2px 5px;
-	font-weight: normal;
-	text-align: center;
-	width: 96%;
-	height: 40px;
-	line-height: 40px;
-	border-bottom: 1px solid #eee;
-}
-#Sidebar ul {
-	margin-top: 15px;
-	padding: 0;
-}
-
-#Sidebar ul a:hover {
-	background: #eee;
-	display: block;
-	-webkit-transition: background-color 0.35s,color 0.35s;
-	transition: background-color 0.35s,color 0.35s;
-}
-
-#Sidebar ul a {
-	display: block;
-	-webkit-transition: background-color 0.35s,color 0.35s;
-	transition: background-color 0.35s,color 0.35s;
-}
-
-#Sidebar #Tel {
-	position: absolute;
-	bottom: 0;
-	display: block;
-	width: 100%;
-	text-align: center;
-	background: #2a4073;
-}
-
-#Sidebar #Tel p {
-	color: #fff;
-}
-
-
+//
+// #Sidebar {
+// 	display: inline-block;
+// 	position: fixed;
+// 	left: 0;
+// 	top: 0;
+// 	width: 20%;
+// 	height: 100%;
+// 	box-shadow: -10px 0px 15px 10px #ddd;
+//
+// }
+//
+// #SiteTitle {
+// 	width: 100%;
+// 	background: #2a4073;
+// 	height: 120px;
+// 	box-shadow: -10px 1px 10px 5px #aaa;
+// }
+// #SiteTitle h1 {
+// 	color: #fff;
+// 	font-size: 20px;
+// 	font-weight: bold;
+// 	line-height: 120px;
+// 	text-align: center;
+// 	margin: 0;
+//
+// }
+//
+// #Sidebar ul li {
+// 	list-style: none;
+// 	display: block;
+// 	padding: 2px 5px;
+// 	font-weight: normal;
+// 	text-align: center;
+// 	width: 96%;
+// 	height: 40px;
+// 	line-height: 40px;
+// 	border-bottom: 1px solid #eee;
+// }
+// #Sidebar ul {
+// 	margin-top: 15px;
+// 	padding: 0;
+// }
+//
+// #Sidebar ul a:hover {
+// 	background: #eee;
+// 	display: block;
+// 	-webkit-transition: background-color 0.35s,color 0.35s;
+// 	transition: background-color 0.35s,color 0.35s;
+// }
+//
+// #Sidebar ul a {
+// 	display: block;
+// 	-webkit-transition: background-color 0.35s,color 0.35s;
+// 	transition: background-color 0.35s,color 0.35s;
+// }
+//
+// #Sidebar #Tel {
+// 	position: absolute;
+// 	bottom: 0;
+// 	display: block;
+// 	width: 100%;
+// 	text-align: center;
+// 	background: #2a4073;
+// }
+//
+// #Sidebar #Tel p {
+// 	color: #fff;
+// }

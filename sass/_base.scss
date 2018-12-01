@@ -1,3 +1,42 @@
 @charset "UTF-8";
 
 //h1,h2など、クラス名をつけない要素の装飾
+
+html,body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	display: block;
+	position: relative;
+}
+
+body,p,h1,h2,li, {
+	font-family:'Lucida Grande',
+ 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',
+ Meiryo, メイリオ, sans-serif;
+ 	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #222;
+}
+
+ dd,dt {
+ 	margin: 0;
+ 	display: inline-block;
+ }
+
+ dd {
+ 	 	font-size: 12px;
+ }
+ dt {
+ 	font-size: 14px;
+ }
+
+p {
+	font-size: 12px;
+}
