@@ -1,4 +1,4 @@
-<div id="Sidebar">
+<!-- <div id="Sidebar">
 	<a href="<?php echo home_url('/'); ?>">
 	<div id="SiteTitle">
 		<h1>ホテルアクセスイン新宿</h1>
@@ -16,4 +16,4 @@
 		<p>ご予約はこちらから</p>
 		<p>TEL:03-3341-7861</p>
 	</div>
-</div>
+</div> -->
