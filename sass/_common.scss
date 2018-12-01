@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+html,body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	display: block;
+	position: relative;
+}
+
+body,p,h1,h2,li, {
+	font-family:'Lucida Grande',
+ 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',
+ Meiryo, メイリオ, sans-serif;
+ 	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #222;
+}
+
+/*
+.Transion_1.0s {
+	-webkit-transition: 1.0s ease;
+	-moz-transition: 1.0s ease;
+	-o-transition: 1.0s ease;
+	transition: 1.0s ease;
+}
+ */
+
+.ClearFix:after{
+  	content: "";
+  	display: block;
+ 	clear: both;
+ }
+
+
+
+ dd,dt {
+ 	margin: 0;
+ 	display: inline-block;
+ }
+
+ dd {
+ 	 	font-size: 12px;
+ }
+ dt {
+ 	font-size: 14px;
+ }
+
+p {
+	font-size: 12px;
+}
+
+
+ .lines-on-sides{
+  display: table;
+  text-align: left;
+  white-space: nowrap;
+}
+.lines-on-sides:after{
+  content: '';
+  display: table-cell;
+  width: 100%;
+  color: #ccc;
+  background: -webkit-linear-gradient(transparent 50%, currentColor 50%, currentColor -webkit-calc(50% + 1px), transparent -webkit-calc(50% + 1px));
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, currentColor), color-stop(currentColor calc(50% + 1px)), to(transparent calc(50% + 1px)));
+  background: linear-gradient(transparent 50%, currentColor 50%, currentColor calc(50% + 1px), transparent calc(50% + 1px));
+  -webkit-background-clip: padding;
+  background-clip: padding;
+}
+.lines-on-sides:after, {
+  border-left: 1em solid transparent;
+}
+
