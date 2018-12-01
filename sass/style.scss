@@ -2,11 +2,11 @@
 
 /* Theme Name:HotelAccessIn */
 
+@import "reset";
+@import "parameter";
+@import "base";
 @import "common";
+@import "header";
 @import "contents";
 @import "footer";
-@import "header";
 @import "sidebar";
-@import "base";
-@import "parameter";
-@import "reset";
