@@ -1,11 +1,42 @@
 @charset "UTF-8";
 
-#Header {
+
+.header {
+	background-color: $Color_theme;
+	color: white;
 	display: block;
-	height: 120px;
-	line-height: 120px;
-	font-size: 20px;
+	width: 100%;
+}
+.header-contents{
+	padding: 20px 40px;
 	width: 80%;
 	margin: 0 auto;
-	padding: 10px;
+
+}
+
+.header-contents__block{
+	color: white;
+	display: inline-block;
+}
+
+.header__logo{
+	height: 60px;
+  float: left;
+}
+
+.header__tel{
+	float: right;
+}
+
+.navi {
+	width: 100%;
+	height: 60px;
+}
+
+.navi_contents{
+	width: 80%;
+}
+
+.navi .header-contents__block {
+	float: left;
 }

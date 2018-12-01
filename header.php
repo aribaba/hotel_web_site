@@ -26,11 +26,6 @@ echo ' | ' . sprintf('%sページ',
 <meta name="description" content="ホテルアクセスイン新宿">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-<script src="<?php bloginfo('template_url'); ?>/js/jquery.pjax.js"></script>
-<script src="<?php bloginfo('template_url'); ?>/js/myPjax.js"></script>
-
-
 <link rel="shortcut icon" href="">
 	<?php wp_head(); ?>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -42,10 +37,48 @@ echo ' | ' . sprintf('%sページ',
 
   gtag('config', 'UA-110145736-1');
 </script>
+
+<div class="header">
+  <div class="header-contents ClearFix">
+  <a class="header__logo header-contents__block" href="<?php echo home_url('/'); ?>">
+    <h1>ホテルアクセスイン新宿</h1>
+  </a>
+    <div class="header__tel header-contents__block">
+      <p>ご予約はこちらから</p>
+      <p>TEL:03-3341-7861</p>
+    </div>
+  </div>
+
+  <div class="navi object-outside">
+    <div class="navi_contents ClearFix">
+      <a class="header-contents__block" href="<?php echo home_url('/'); ?>"><span>トップページ</span></a>
+      <a class="header-contents__block" href="<?php echo home_url('/'); ?>room" ><span>客室のご案内</span></a>
+      <a class="header-contents__block" href="<?php echo home_url('/'); ?>access" ><span>アクセス</span></a>
+      <a class="header-contents__block" href="<?php echo home_url('/'); ?>hotel_info" ><span>サービスのご案内</span></a>
+    </div>
+  </div>
+</div>
+
+<div class="header__image">
+
+      <?php if(is_page('top') ): ?>
+      <!--会社情報ページとアクセス情報に表示させたい内容-->
+      <img class="object-outside" src="<?php echo get_template_directory_uri(); ?>\img\header__image_1.jpg" ; ?>
+
+      <?php elseif(is_page( 'hotel_info' ) ): ?>
+      <img class="object-outside" src="<?php echo get_template_directory_uri(); ?>\img\header__image_1.jpg" ; ?>
+
+      <?php elseif(is_page( 'hotel_info' ) ): ?>
+      <img class="object-outside" src="<?php echo get_template_directory_uri(); ?>\img\header__image_1.jpg" ; ?>
+
+      <?php elseif(is_page( 'access' ) ): ?>
+      <img class="object-outside" src="<?php echo get_template_directory_uri(); ?>\img\header__image_1.jpg" ; ?>
+      <?php else: ?>
+      <!--それ以外に表示させたい内容(入れる内容がない場合は空)-->
+      <?php endif; ?>
+    </div>
 </head>
 	<body>
 		<div id="Wrap">
-				<!-- <header id="Header" class="">
 
-				</header>
- -->
+      <!-- headerとcontentsの間に入れる画像を挿入 -->
