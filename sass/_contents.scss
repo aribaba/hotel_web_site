@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 #Wrap {
-	display: inline-block;
+	display: block;
 	max-width: 1200px;
 	background: white;
 	margin:50px auto;
@@ -15,10 +15,20 @@
 }
 
 #MainColumn h1 {
-	font-weight: normal;
-	color: #222;
-	margin: 5px 0px 3px 3px;
-	border-bottom: 2px solid #ddd;
+	font-weight: bold;
+	color: white;
+}
+
+.contents-rows__page-title{
+	margin:40px auto;
+	background-color: $Color_theme;
+	padding: 10px;
+}
+
+.content__page-title{
+	margin:20px auto;
+	background-color: $Color_theme;
+	padding: 10px;
 }
 
 #MainContent {

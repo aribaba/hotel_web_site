@@ -25,11 +25,13 @@
 					while($count <= 2):
 				$page = get_post( $frontPageArray[$count] ); ?>
 				<div class="frontPages">
-					<h1 class="page-title">
-               			<?php
-               			 echo $page->post_title;
-               			 ?>
-           			</h1>
+					<div class="contents-rows__page-title">
+							<h1 class="page-title">
+		               			<?php
+		               			 echo $page->post_title;
+		               			 ?>
+	           	</h1>
+						</div>
            				<?php
 						echo $page->post_content;
 						$count++;
