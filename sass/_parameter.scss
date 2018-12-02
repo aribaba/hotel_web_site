@@ -3,3 +3,22 @@
 //宣言系はこちらに記述。固有のカラーなども。
 
 $Color_theme : #164a84;
+$Color_theme_2 : #007bbb;
+
+@media (min-width: 100px) {
+  html {
+    font-size: 8px
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 10px
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 11px
+  }
+}

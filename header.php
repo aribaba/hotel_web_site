@@ -67,14 +67,14 @@ echo ' | ' . sprintf('%sページ',
       <!--会社情報ページとアクセス情報に表示させたい内容-->
       <img class="object-outside" src="<?php echo get_template_directory_uri(); ?>\img\header__image_1.jpg" ; ?>
 
-      <?php elseif(is_page( 'hotel_info' ) ): ?>
-      <img class="object-outside" src="<?php echo get_template_directory_uri(); ?>\img\header__image_1.jpg" ; ?>
+    <?php elseif(is_page( 'room' ) ): ?>
+      <img class="object-outside" src="<?php echo get_template_directory_uri(); ?>\img\semi-doubleRoom_1.jpg" ; ?>
 
       <?php elseif(is_page( 'hotel_info' ) ): ?>
       <img class="object-outside" src="<?php echo get_template_directory_uri(); ?>\img\header__image_1.jpg" ; ?>
 
       <?php elseif(is_page( 'access' ) ): ?>
-      <img class="object-outside" src="<?php echo get_template_directory_uri(); ?>\img\header__image_1.jpg" ; ?>
+      <img class="object-outside" src="<?php echo get_template_directory_uri(); ?>\img\access.jpg" ; ?>
       <?php else: ?>
       <!--それ以外に表示させたい内容(入れる内容がない場合は空)-->
       <?php endif; ?>

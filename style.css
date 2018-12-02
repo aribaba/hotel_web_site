@@ -402,7 +402,7 @@ p {
 
 .header-contents__block {
   color: white;
-  font-size: 16px; }
+  font-size: 14px; }
 
 .header__logo {
   width: 40%;
@@ -417,7 +417,7 @@ p {
 
 .header__tel p {
   text-align: right;
-  font-size: 2rem; }
+  font-size: 1.5rem; }
 
 .navi {
   background-color: #007bbb;
@@ -438,10 +438,12 @@ p {
   display: inline-block;
   max-width: 1200px;
   background: white;
-  margin: 50px auto; }
+  margin: 50px auto;
+  width: 100%; }
 
 #MainColumn {
-  width: 90%; }
+  width: 90%;
+  margin: 0 auto; }
 
 #MainColumn h1 {
   font-weight: normal;
@@ -493,6 +495,19 @@ p {
 #MainContent #AccessInfo dd:before {
   content: ":";
   letter-spacing: 10px; }
+
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden; }
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important; }
 
 .footer {
   position: fixed;
