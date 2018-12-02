@@ -41,7 +41,7 @@ echo ' | ' . sprintf('%sページ',
 <div class="header">
   <div class="header-contents ClearFix">
   <a class="header__logo header-contents__block" href="<?php echo home_url('/'); ?>">
-    <h1>ホテルアクセスイン新宿</h1>
+    <img src="<?php echo get_template_directory_uri(); ?>\img\hotel_logo.jpg">
   </a>
     <div class="header__tel header-contents__block">
       <p>ご予約はこちらから</p>

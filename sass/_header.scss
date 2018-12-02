@@ -20,12 +20,21 @@
 }
 
 .header__logo{
-	height: 60px;
+	width: 40%;
   float: left;
+}
+
+.header__logo img{
+	width: 80%;
 }
 
 .header__tel{
 	float: right;
+	width: 40%;
+}
+
+.header__tel p{
+	text-align: right;
 }
 
 .navi {
