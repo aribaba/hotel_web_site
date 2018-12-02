@@ -40,9 +40,11 @@ echo ' | ' . sprintf('%sページ',
 
 <div class="header">
   <div class="header-contents ClearFix">
-  <a class="header__logo header-contents__block" href="<?php echo home_url('/'); ?>">
-    <img src="<?php echo get_template_directory_uri(); ?>\img\hotel_logo.jpg">
-  </a>
+    <h1>
+      <a class="header__logo header-contents__block" href="<?php echo home_url('/'); ?>">
+          <img src="<?php echo get_template_directory_uri(); ?>\img\hotel_logo.jpg">
+      </a>
+    </h1>
     <div class="header__tel header-contents__block">
       <p>ご予約はこちらから</p>
       <p>TEL:03-3341-7861</p>
@@ -51,10 +53,10 @@ echo ' | ' . sprintf('%sページ',
 
   <div class="navi object-outside">
     <div class="navi_contents ClearFix">
-      <a class="header-contents__block" href="<?php echo home_url('/'); ?>"><span>トップページ</span></a>
-      <a class="header-contents__block" href="<?php echo home_url('/'); ?>room" ><span>客室のご案内</span></a>
-      <a class="header-contents__block" href="<?php echo home_url('/'); ?>access" ><span>アクセス</span></a>
-      <a class="header-contents__block" href="<?php echo home_url('/'); ?>hotel_info" ><span>サービスのご案内</span></a>
+      <a class="header-contents__block object__blocked" href="<?php echo home_url('/'); ?>"><span>トップページ</span></a>
+      <a class="header-contents__block object__blocked" href="<?php echo home_url('/'); ?>room" ><span>客室のご案内</span></a>
+      <a class="header-contents__block object__blocked" href="<?php echo home_url('/'); ?>access" ><span>アクセス</span></a>
+      <a class="header-contents__block object__blocked" href="<?php echo home_url('/'); ?>hotel_info" ><span>サービスのご案内</span></a>
     </div>
   </div>
 </div>

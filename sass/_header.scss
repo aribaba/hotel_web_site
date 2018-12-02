@@ -16,7 +16,7 @@
 
 .header-contents__block{
 	color: white;
-	display: inline-block;
+	font-size: 16px;
 }
 
 .header__logo{
@@ -35,17 +35,25 @@
 
 .header__tel p{
 	text-align: right;
+	font-size: 2rem;
 }
 
 .navi {
-	width: 100%;
+	background-color: $Color_theme_2;
 	height: 60px;
+	width: 100%;
 }
 
 .navi_contents{
+	display: flex;
+	margin: 0 auto;
+	height: 100%;
 	width: 80%;
+
 }
 
-.navi .header-contents__block {
-	float: left;
+
+.navi_contents .header-contents__block:hover{
+	background-color: white;
+	color: $Color_theme;
 }

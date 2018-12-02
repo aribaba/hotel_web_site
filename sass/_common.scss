@@ -38,3 +38,11 @@
 	width: 100%;
 	background-size: cover;
 }
+
+//インラインのオブジェクトをブロック化 横に4つ並べる例
+.object__blocked{
+	align-items: center;
+	display: flex;
+	width: 25%;
+	justify-content: center;
+}
