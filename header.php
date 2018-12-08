@@ -42,12 +42,12 @@ echo ' | ' . sprintf('%sページ',
   <div class="header-contents ClearFix">
     <h1>
       <a class="header__logo header-contents__block" href="<?php echo home_url('/'); ?>">
-          <img src="<?php echo get_template_directory_uri(); ?>\img\hotel_logo.jpg">
+          <img src="<?php echo get_template_directory_uri(); ?>\img\hotel_logo.png">
       </a>
     </h1>
     <div class="header__tel header-contents__block">
-      <p>ご予約はこちらから</p>
-      <p>TEL:03-3341-7861</p>
+
+      <img src="<?php echo get_template_directory_uri(); ?>\img\image_tel.png" alt="">
     </div>
   </div>
 

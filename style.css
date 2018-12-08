@@ -397,7 +397,7 @@ p {
 
 .header-contents {
   padding: 20px 40px;
-  width: 80%;
+  width: 65%;
   margin: 0 auto; }
 
 .header-contents__block {
@@ -415,9 +415,9 @@ p {
   float: right;
   width: 40%; }
 
-.header__tel p {
-  text-align: right;
-  font-size: 1.5rem; }
+.header__tel img {
+  float: right;
+  width: 80%; }
 
 .navi {
   background-color: #007bbb;
