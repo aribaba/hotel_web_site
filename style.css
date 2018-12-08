@@ -424,6 +424,10 @@ p {
   height: 60px;
   width: 100%; }
 
+.navi .current {
+  background-color: white;
+  color: #164a84; }
+
 .navi_contents {
   display: flex;
   margin: 0 auto;

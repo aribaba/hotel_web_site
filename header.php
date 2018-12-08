@@ -54,9 +54,9 @@ echo ' | ' . sprintf('%sページ',
   <div class="navi object-outside">
     <div class="navi_contents ClearFix">
       <a class="header-contents__block object__blocked" href="<?php echo home_url('/'); ?>"><span>トップページ</span></a>
-      <a class="header-contents__block object__blocked" href="<?php echo home_url('/'); ?>room" ><span>客室のご案内</span></a>
-      <a class="header-contents__block object__blocked" href="<?php echo home_url('/'); ?>access" ><span>アクセス</span></a>
-      <a class="header-contents__block object__blocked" href="<?php echo home_url('/'); ?>hotel_info" ><span>サービスのご案内</span></a>
+      <a class="header-contents__block object__blocked<?php if( is_page('room') ) echo ' current'; ?>" href="<?php echo home_url('/'); ?>room" ><span>客室のご案内</span></a>
+      <a class="header-contents__block object__blocked<?php if( is_page('access') ) echo ' current'; ?>" href="<?php echo home_url('/'); ?>access" ><span>アクセス</span></a>
+      <a class="header-contents__block object__blocked<?php if( is_page('hotel_info') ) echo ' current'; ?>" href="<?php echo home_url('/'); ?>hotel_info" ><span>サービスのご案内</span></a>
     </div>
   </div>
 </div>

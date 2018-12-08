@@ -47,12 +47,16 @@
 	width: 100%;
 }
 
+.navi .current{
+	background-color: white;
+	color: $Color_theme;
+}
+
 .navi_contents{
 	display: flex;
 	margin: 0 auto;
 	height: 100%;
 	width: 80%;
-
 }
 
 
