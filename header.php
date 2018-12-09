@@ -27,13 +27,15 @@ echo ' | ' . sprintf('%sページ',
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="shortcut icon" href="">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>\bootstrap.css">
+
 	<?php wp_head(); ?>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110145736-1"></script>
 
 <!-- jquery -->
 <script src="<?php echo get_template_directory_uri(); ?>\js\jquery.js"></script>
-
+<script src="<?php echo get_template_directory_uri(); ?>\js\bootstrap.js"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -60,10 +62,10 @@ echo ' | ' . sprintf('%sページ',
 
       <div class="navi object-outside">
         <div class="navi_contents ClearFix">
-          <a class="header-contents__block object__blocked" href="<?php echo home_url('/'); ?>"><span>トップページ</span></a>
-          <a class="header-contents__block object__blocked<?php if( is_page('room') ) echo ' current'; ?>" href="<?php echo home_url('/'); ?>room" ><span>客室のご案内</span></a>
+          <a class="header-contents__block object__blocked" href="<?php echo home_url('/'); ?>"><span>ホーム</span></a>
+          <a class="header-contents__block object__blocked<?php if( is_page('room') ) echo ' current'; ?>" href="<?php echo home_url('/'); ?>room" ><span>客室案内</span></a>
           <a class="header-contents__block object__blocked<?php if( is_page('access') ) echo ' current'; ?>" href="<?php echo home_url('/'); ?>access" ><span>アクセス</span></a>
-          <a class="header-contents__block object__blocked<?php if( is_page('hotel_info') ) echo ' current'; ?>" href="<?php echo home_url('/'); ?>hotel_info" ><span>サービスのご案内</span></a>
+          <a class="header-contents__block object__blocked<?php if( is_page('hotel_info') ) echo ' current'; ?>" href="<?php echo home_url('/'); ?>hotel_info" ><span>施設案内</span></a>
         </div>
       </div>
     </div>

@@ -3,8 +3,8 @@
 <footer class="footer">
 	<div class="footer-contents__space">
 		<!-- footer left side -->
-		<div class="footer_logo object__blocked ">
-			<a class="footer-contents__block" href="<?php echo home_url('/'); ?>">
+		<div class="footer_logo object__blocked">
+			<a class="footer-contents__block_logo" href="<?php echo home_url('/'); ?>">
 					<img src="<?php echo get_template_directory_uri(); ?>\img\hotel_logo.png">
 			</a>
 			<div class="footer-access object__blocked">
@@ -15,10 +15,10 @@
 		<!-- footer right side -->
 		<div class="object__blocked footer-navi object-outside">
 				<div class="footer-navi_contents ClearFix">
-					<a class="footer-contents__block " href="<?php echo home_url('/'); ?>"><span>トップページ</span></a>
-					<a class="footer-contents__block " href="<?php echo home_url('/'); ?>room" ><span>客室のご案内</span></a>
+					<a class="footer-contents__block " href="<?php echo home_url('/'); ?>"><span>ホーム</span></a>
+					<a class="footer-contents__block " href="<?php echo home_url('/'); ?>room" ><span>客室案内</span></a>
 					<a class="footer-contents__block " href="<?php echo home_url('/'); ?>access" ><span>アクセス</span></a>
-					<a class="last footer-contents__block " href="<?php echo home_url('/'); ?>hotel_info" ><span>サービスのご案内</span></a>
+					<a class="last footer-contents__block " href="<?php echo home_url('/'); ?>hotel_info" ><span>施設案内</span></a>
 				</div>
 		</div>
 	</div>

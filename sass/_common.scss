@@ -12,27 +12,27 @@
 	display: block;
 	clear: both;
 }
-
-.lines-on-sides {
-	display: table;
-	text-align: left;
-	white-space: nowrap;
-}
-
-.lines-on-sides:after {
-	content: '';
-	display: table-cell;
-	width: 100%;
-	color: #ccc;
-	background: -webkit-linear-gradient(transparent 50%, currentColor 50%, currentColor -webkit-calc(50% + 1px), transparent -webkit-calc(50% + 1px));
-	background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, currentColor), color-stop(currentColor calc(50% + 1px)), to(transparent calc(50% + 1px)));
-	background: linear-gradient(transparent 50%, currentColor 50%, currentColor calc(50% + 1px), transparent calc(50% + 1px));
-	-webkit-background-clip: padding;
-	background-clip: padding;
-}
-.lines-on-sides:after {
-	border-left: 1em solid transparent;
-}
+//
+// .lines-on-sides {
+// 	display: table;
+// 	text-align: left;
+// 	white-space: nowrap;
+// }
+//
+// .lines-on-sides:after {
+// 	content: '';
+// 	display: table-cell;
+// 	width: 100%;
+// 	color: #ccc;
+// 	background: -webkit-linear-gradient(transparent 50%, currentColor 50%, currentColor -webkit-calc(50% + 1px), transparent -webkit-calc(50% + 1px));
+// 	background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, currentColor), color-stop(currentColor calc(50% + 1px)), to(transparent calc(50% + 1px)));
+// 	background: linear-gradient(transparent 50%, currentColor 50%, currentColor calc(50% + 1px), transparent calc(50% + 1px));
+// 	-webkit-background-clip: padding;
+// 	background-clip: padding;
+// }
+// .lines-on-sides:after {
+// 	border-left: 1em solid transparent;
+// }
 
 .object-outside{
 	width: 100%;
