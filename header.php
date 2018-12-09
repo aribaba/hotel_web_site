@@ -30,6 +30,10 @@ echo ' | ' . sprintf('%sページ',
 	<?php wp_head(); ?>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110145736-1"></script>
+
+<!-- jquery -->
+<script src="<?php echo get_template_directory_uri(); ?>\js\jquery.js"></script>
+
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
