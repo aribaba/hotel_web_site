@@ -17,13 +17,13 @@
 				<div class="footer-navi_contents ClearFix">
 					<a class="footer-contents__block object__blocked" href="<?php echo home_url('/'); ?>"><span>トップページ</span></a>
 					<a class="footer-contents__block object__blocked" href="<?php echo home_url('/'); ?>room" ><span>客室のご案内</span></a>
-					<a class="footer-contents__block object__blocked<?php if( is_page('access') ) echo ' current'; ?>" href="<?php echo home_url('/'); ?>access" ><span>アクセス</span></a>
-					<a class="last footer-contents__block object__blocked<?php if( is_page('hotel_info') ) echo ' current'; ?>" href="<?php echo home_url('/'); ?>hotel_info" ><span>サービスのご案内</span></a>
+					<a class="footer-contents__block object__blocked" href="<?php echo home_url('/'); ?>access" ><span>アクセス</span></a>
+					<a class="last footer-contents__block object__blocked" href="<?php echo home_url('/'); ?>hotel_info" ><span>サービスのご案内</span></a>
 				</div>
 		</div>
 	</div>
 	<div class="ft-copyright">
-		<span>Copyright(C) 2018 APA GROUP. All Rights Reserved. </span>
+		<span>Copyright(C) 2018 tyōsyunkan Co. All Rights Reserved. </span>
 	</div>
 
 </footer>
