@@ -20,6 +20,22 @@ body,p,h1,h2,li, {
  	margin: 0;
 }
 
+h1 {
+	font-weight: bold;
+	color: white;
+	font-size: 18px;
+}
+
+h2 {
+	font-weight: bolder;
+	font-size: 16px;
+}
+
+h3 {
+	font-weight: bolder;
+	font-size: 16px;
+}
+
 a {
 	text-decoration: none;
 	color: #222;
@@ -31,12 +47,13 @@ a {
  }
 
  dd {
- 	 	font-size: 12px;
+ 	 	font-size: 16px;
  }
  dt {
- 	font-size: 14px;
+ 	font-size: 16px;
  }
 
 p {
-	font-size: 12px;
+	font-size: 16px;
+	line-height: 1.3em;
 }

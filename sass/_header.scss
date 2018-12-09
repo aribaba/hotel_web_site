@@ -11,18 +11,27 @@
 	padding: 20px 40px;
 	width: 65%;
 	margin: 0 auto;
+	@media (max-width: 767px){
+		text-align: center;
+	}
 
 }
 
 .header-contents__block{
 	color: white;
 	font-size: 14px;
-	//@mediaでwidthによってfont-size可変にする
+	@media (max-width: 767px){
+		font-size: 12px;
+	}
 }
 
 .header__logo{
 	width: 40%;
   float: left;
+	@media (max-width: 767px){
+		width: 100%;
+		float: none;
+	}
 }
 
 .header__logo img{
@@ -32,7 +41,9 @@
 .header__tel{
 	float: right;
 	width: 40%;
-	//@mediaでwidthによって、telを隠す
+	@media (max-width: 767px){
+		display: none;
+	}
 }
 
 .header__tel img{

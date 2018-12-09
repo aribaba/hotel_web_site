@@ -6,21 +6,33 @@
 	background: white;
 	margin:50px auto;
 	width: 100%;
+	@media (max-width: 767px){
+		margin: 0 auto;
+	}
 }
 
 
 #MainColumn {
 	width: 90%;
 	margin: 0 auto;
+	@media (max-width: 767px){
+		width: 100%;
+	}
 }
 
-#MainColumn h1 {
+h1 {
 	font-weight: bold;
 	color: white;
+	font-size: 18px;
+}
+
+#MainColumn h2 {
+	text-align: center;
+	line-height: 1.3em;
 }
 
 .contents-rows__page-title{
-	margin:40px auto;
+	margin:40px auto 0px;
 	background-color: $Color_theme;
 	padding: 10px;
 }
@@ -34,7 +46,6 @@
 #MainContent {
 	display: block;
 	height: auto;
-	width: 100%;
 	/*box-shadow: 0px 3px 7px 3px #eee;*/
 	padding: 10px;
 	background-color: #fff;
@@ -68,13 +79,9 @@
 	float: left;
 }
 
-
-#MainContent #HotelInfo p {
-	font-size: 12px;
-}
-
 #MainContent #AccessInfo {
-	font-size: 12px;
+	list-style: none;
+	padding-left: 0px;
 }
 
 #MainContent #AccessInfo dt {

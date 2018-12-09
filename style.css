@@ -311,11 +311,13 @@ template {
 
 @media (min-width: 768px) {
   html {
-    font-size: 10px; } }
+    font-size: 16px;
+    line-height: 1.2em; } }
 
 @media (min-width: 1200px) {
   html {
-    font-size: 11px; } }
+    font-size: 16px;
+    line-height: 1.2em; } }
 
 html, body {
   height: 100%;
@@ -330,6 +332,19 @@ body, p, h1, h2, li {
   font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
   margin: 0; }
 
+h1 {
+  font-weight: bold;
+  color: white;
+  font-size: 18px; }
+
+h2 {
+  font-weight: bolder;
+  font-size: 16px; }
+
+h3 {
+  font-weight: bolder;
+  font-size: 16px; }
+
 a {
   text-decoration: none;
   color: #222; }
@@ -339,13 +354,14 @@ dd, dt {
   display: inline-block; }
 
 dd {
-  font-size: 12px; }
+  font-size: 16px; }
 
 dt {
-  font-size: 14px; }
+  font-size: 16px; }
 
 p {
-  font-size: 12px; }
+  font-size: 16px;
+  line-height: 1.3em; }
 
 /*
 .Transion_1.0s {
@@ -399,14 +415,24 @@ p {
   padding: 20px 40px;
   width: 65%;
   margin: 0 auto; }
+  @media (max-width: 767px) {
+    .header-contents {
+      text-align: center; } }
 
 .header-contents__block {
   color: white;
   font-size: 14px; }
+  @media (max-width: 767px) {
+    .header-contents__block {
+      font-size: 12px; } }
 
 .header__logo {
   width: 40%;
   float: left; }
+  @media (max-width: 767px) {
+    .header__logo {
+      width: 100%;
+      float: none; } }
 
 .header__logo img {
   width: 80%; }
@@ -414,6 +440,9 @@ p {
 .header__tel {
   float: right;
   width: 40%; }
+  @media (max-width: 767px) {
+    .header__tel {
+      display: none; } }
 
 .header__tel img {
   float: right;
@@ -444,17 +473,28 @@ p {
   background: white;
   margin: 50px auto;
   width: 100%; }
+  @media (max-width: 767px) {
+    #Wrap {
+      margin: 0 auto; } }
 
 #MainColumn {
   width: 90%;
   margin: 0 auto; }
+  @media (max-width: 767px) {
+    #MainColumn {
+      width: 100%; } }
 
-#MainColumn h1 {
+h1 {
   font-weight: bold;
-  color: white; }
+  color: white;
+  font-size: 18px; }
+
+#MainColumn h2 {
+  text-align: center;
+  line-height: 1.3em; }
 
 .contents-rows__page-title {
-  margin: 40px auto;
+  margin: 40px auto 0px;
   background-color: #164a84;
   padding: 10px; }
 
@@ -466,7 +506,6 @@ p {
 #MainContent {
   display: block;
   height: auto;
-  width: 100%;
   /*box-shadow: 0px 3px 7px 3px #eee;*/
   padding: 10px;
   background-color: #fff;
@@ -494,11 +533,9 @@ p {
 #MainContent #HotelInfo {
   float: left; }
 
-#MainContent #HotelInfo p {
-  font-size: 12px; }
-
 #MainContent #AccessInfo {
-  font-size: 12px; }
+  list-style: none;
+  padding-left: 0px; }
 
 #MainContent #AccessInfo dt {
   width: 60px;
