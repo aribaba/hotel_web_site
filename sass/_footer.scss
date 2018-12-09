@@ -53,6 +53,12 @@
 		font-size: 1.3rem;
 }
 
+.footer-contents__block{
+	@extend.object__blocked;
+	width: auto;
+	margin-right: 20px;
+}
+
 .footer-navi_contents .last::after{
 	content: "|";
 	margin-left: 20px;
@@ -65,7 +71,7 @@
 
 .footer-navi_contents{
 	display: flex;
-	width: 100%;
+	width: auto;
 }
 
 .ft-copyright{

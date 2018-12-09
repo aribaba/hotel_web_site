@@ -383,7 +383,7 @@ p {
   width: 100%;
   background-size: cover; }
 
-.object__blocked {
+.object__blocked, .footer-contents__block {
   align-items: center;
   display: flex;
   width: 25%;
@@ -563,6 +563,10 @@ p {
   color: white;
   font-size: 1.3rem; }
 
+.footer-contents__block {
+  width: auto;
+  margin-right: 20px; }
+
 .footer-navi_contents .last::after {
   content: "|";
   margin-left: 20px; }
@@ -573,7 +577,7 @@ p {
 
 .footer-navi_contents {
   display: flex;
-  width: 100%; }
+  width: auto; }
 
 .ft-copyright {
   display: block;

@@ -15,10 +15,10 @@
 		<!-- footer right side -->
 		<div class="object__blocked footer-navi object-outside">
 				<div class="footer-navi_contents ClearFix">
-					<a class="footer-contents__block object__blocked" href="<?php echo home_url('/'); ?>"><span>トップページ</span></a>
-					<a class="footer-contents__block object__blocked" href="<?php echo home_url('/'); ?>room" ><span>客室のご案内</span></a>
-					<a class="footer-contents__block object__blocked" href="<?php echo home_url('/'); ?>access" ><span>アクセス</span></a>
-					<a class="last footer-contents__block object__blocked" href="<?php echo home_url('/'); ?>hotel_info" ><span>サービスのご案内</span></a>
+					<a class="footer-contents__block " href="<?php echo home_url('/'); ?>"><span>トップページ</span></a>
+					<a class="footer-contents__block " href="<?php echo home_url('/'); ?>room" ><span>客室のご案内</span></a>
+					<a class="footer-contents__block " href="<?php echo home_url('/'); ?>access" ><span>アクセス</span></a>
+					<a class="last footer-contents__block " href="<?php echo home_url('/'); ?>hotel_info" ><span>サービスのご案内</span></a>
 				</div>
 		</div>
 	</div>
