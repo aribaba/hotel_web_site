@@ -62,6 +62,7 @@ echo ' | ' . sprintf('%sページ',
 
       <div class="navi object-outside">
         <div class="navi_contents ClearFix">
+          <!-- ヘッダーのリンク設定現状４つ 5つにしたい場合はレイアウト変更する必要あり -->
           <a class="header-contents__block object__blocked" href="<?php echo home_url('/'); ?>"><span>ホーム</span></a>
           <a class="header-contents__block object__blocked<?php if( is_page('room') ) echo ' current'; ?>" href="<?php echo home_url('/'); ?>room" ><span>客室案内</span></a>
           <a class="header-contents__block object__blocked<?php if( is_page('access') ) echo ' current'; ?>" href="<?php echo home_url('/'); ?>access" ><span>アクセス</span></a>
@@ -71,12 +72,12 @@ echo ' | ' . sprintf('%sページ',
     </div>
     <div class="header__image">
           <?php if(is_page('top') ): ?>
-          <!--会社情報ページとアクセス情報に表示させたい内容-->
-          <img class="object-outside" src="<?php echo get_template_directory_uri(); ?>\img\header__image_1.jpg" ; ?>
+          <!--ページ上部に表示される画像-->
+          <img class="object-outside" src="<?php echo get_template_directory_uri(); ?>\img\hotel_outside_1.jpg" ; ?>
         <?php elseif(is_page( 'room' ) ): ?>
           <img class="object-outside" src="<?php echo get_template_directory_uri(); ?>\img\semi-doubleRoom_1.jpg" ; ?>
           <?php elseif(is_page( 'hotel_info' ) ): ?>
-          <img class="object-outside" src="<?php echo get_template_directory_uri(); ?>\img\header__image_1.jpg" ; ?>
+          <img class="object-outside" src="<?php echo get_template_directory_uri(); ?>\img\singleRoom_1.jpg" ; ?>
           <?php elseif(is_page( 'access' ) ): ?>
           <img class="object-outside" src="<?php echo get_template_directory_uri(); ?>\img\access.jpg" ; ?>
           <?php else: ?>
