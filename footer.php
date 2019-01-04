@@ -1,3 +1,7 @@
+<div class="sp_tel">
+  <a href="tel:0333417861"><img src="<?php echo get_template_directory_uri(); ?>\img\sp_tel_1.png" alt=""></a>
+</div>
+
 
 <?php wp_footer(); ?>
 <footer class="footer">
