@@ -18,11 +18,10 @@
 		        $frontPageArray = array(
 		        2,
 		        10,
-		        12,
 		     	);
 
 		        $count = 0;
-					while($count <= 2):
+					while($count <= 1):
 				$page = get_post( $frontPageArray[$count] ); ?>
 				<div class="frontPages">
 					<div class="contents-rows__page-title">
