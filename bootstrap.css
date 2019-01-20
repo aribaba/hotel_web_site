@@ -5,7 +5,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -265,6 +265,16 @@ th {
 
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+@font-face{
+font-family:'GenShinPB';
+src:url('font/GenShinGothic-P-Bold.woff')format('woff');
+}
+
+@font-face{
+font-family:'GenShinPR';
+src:url('font/GenShinGothic-P-Regular.woff')format('woff');
 }
 .glyphicon {
   position: relative;
@@ -1082,7 +1092,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "GenShinPR", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   /* color: #333; */
@@ -1183,7 +1193,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: 'GenShinPB';
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
